@@ -5,16 +5,16 @@ const App = () => {
 
   return (
     <>
-      <h1 class="text-3xl font-bold underline">
+      <h1 className="text-3xl font-bold underline">
       Hello world!</h1>
 
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] owerflow-hidden">
-        <Button className="mt-10" href="#login">
-          Something
-        </Button>
 
-      </div>
-
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        <Button className="mt-10" href='#login'>
+          Somthing
+          </Button>
+        </div>
+     
       <ButtonGradient />
     </>
   );
